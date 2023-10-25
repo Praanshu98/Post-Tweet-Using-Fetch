@@ -35,5 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 console.log(error);
                 responseDiv.innerText = `Error while posting tweet: ${error.message}`;
             });
+        tweetText.value = "";
     });
 });
